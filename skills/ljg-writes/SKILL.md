@@ -94,7 +94,7 @@ User: 「预测是一种选择压，它逼出对结构的理解。帮我完整�
 ```yaml
 title:      {标题}
 date:       [{YYYY-MM-DD Day HH:MM}]
-filetags:   :write:
+tags:   :write:
 identifier: {YYYYMMDDTHHMMSS}
 author:     李继刚
 ```

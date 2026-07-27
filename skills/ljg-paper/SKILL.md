@@ -1,6 +1,6 @@
 ---
 name: ljg-paper
-description: "Paper reader for non-academics. Finds the load-bearing concepts the reader does not yet truly have, rebuilds them through relations and cases, and turns one paper into a bounded model that explains a concrete phenomenon. USE WHEN the user shares an arXiv link OR paper URL OR PDF OR local paper file OR paper title, or asks to read, explain, analyze, or understand a paper. Defaults to a saved org note. NOT FOR experiment reproduction, exhaustive method summaries, formal peer review, benchmark tables, or literature surveys."
+description: "Paper reader for non-academics. Finds the load-bearing concepts the reader does not yet truly have, rebuilds them through relations and cases, and turns one paper into a bounded model that explains a concrete phenomenon. USE WHEN the user shares an arXiv link OR paper URL OR PDF OR local paper file OR paper title, or asks to read, explain, analyze, or understand a paper. Defaults to a saved markdown note. NOT FOR experiment reproduction, exhaustive method summaries, formal peer review, benchmark tables, or literature surveys."
 ---
 
 # ljg-paper：把陌生概念长成解释模型
@@ -27,7 +27,7 @@ description: "Paper reader for non-academics. Finds the load-bearing concepts th
 | 只有论文标题 | 找到可靠原文后读 `ReadingGuide.md` | 按四段结构生成 org 笔记 |
 | 用户明确只要口头解释 | `ReadingGuide.md` | 不写文件，按同一理解路径讲 |
 
-写 org 文件时再读 `references/template.md`。默认保存到 `~/Documents/notes/`。
+写 Markdown 文件时再读 `references/template.md`。默认保存到 `~/Documents/notes/`。
 
 文件名沿用 Denote：`{YYYYMMDDTHHMMSS}--paper-{方法名或论文关键词}__paper.md`；时间戳用 `date +%Y%m%dT%H%M%S` 生成。
 
@@ -80,7 +80,7 @@ description: "Paper reader for non-academics. Finds the load-bearing concepts th
 | 公式就是不可替代的核心关系 | 一个最小公式，加人话翻译 |
 | 两三句话已经足够 | 纯文字 |
 
-图不是标配。它只在降低理解成本时出现，并放在概念已经用人话和案例落地之后；图负责让关系显形，不替代概念形成。相关证据和适用边界紧随其后。ASCII 图使用 org 的 `#+begin_example` / `#+end_example` 块，宽度不超过 80 字符。
+图不是标配。它只在降低理解成本时出现，并放在概念已经用人话和案例落地之后；图负责让关系显形，不替代概念形成。相关证据和适用边界紧随其后。ASCII 图使用 Markdown 的 fenced code block，宽度不超过 80 字符。
 
 判断图是否有用，不只看它能否复述模型，还要看它是否守住证据分寸：读者只看图，应能说出哪些概念在怎样作用、论文改变了什么判断，但不会得到超出实验支持的结论。若图只是把摘要换行，删除它。
 

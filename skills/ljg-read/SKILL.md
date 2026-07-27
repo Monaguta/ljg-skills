@@ -218,7 +218,7 @@ Org 文件结构：
 ```yaml
 title: 伴读：{文本标题}
 date: [{可读时间}]
-filetags: :reading:
+tags: :reading:
 identifier: {时间戳}
 source: {URL 或来源}
 

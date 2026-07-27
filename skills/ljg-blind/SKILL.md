@@ -137,7 +137,7 @@ bun "${HOME}/.agents/skills/ljg-blind/Tools/WeReadWebUrl.ts" "<bookId>"
 ```yaml
 title: 盲区扫描 · {一句话点出这个盲区}
 date: [YYYY-MM-DD Weekday HH:MM]
-filetags: :blind:weread:topology:
+tags: :blind:weread:topology:
 
 * 昨天你在想什么
 <1-2 段。当天对话的思维地形——哪几件事、绕着哪个核心在转。给证据：哪几句话看出来的。不流水账，抓主线。>

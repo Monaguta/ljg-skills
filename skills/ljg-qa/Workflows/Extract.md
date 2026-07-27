@@ -148,7 +148,7 @@ denote schema 文件名：`{YYYYMMDDTHHMMSS}--qa-{主题}__qa.md`
 title:      {一句精炼的核心观点——10-25 字}
 subtitle:   {原文标题}
 date:       [{YYYY-MM-DD Day HH:MM}]
-filetags:   :qa:
+tags:   :qa:
 identifier: {YYYYMMDDTHHMMSS}
 source:     {URL 或来源}
 

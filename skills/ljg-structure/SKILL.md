@@ -84,7 +84,7 @@ user_invocable: true
 title: 结构：{主题}
 date: [{可读时间}]
 identifier: {时间戳}
-filetags: :structure:
+tags: :structure:
 
 * 输入
 * 母题

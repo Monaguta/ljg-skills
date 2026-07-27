@@ -150,10 +150,8 @@ f(x) 不是额外添加的个人感悟。它必须从 f 推出来。删掉 f 后
 
 ASCII 图放进：
 
-```org
-#+begin_example
+```text
 ...
-#+end_example
 ```
 
 宽度不超过 80 字符，只画一张。保持形状不变形。若只是把三行摘要重新排版，或没有降低理解成本，不画。
@@ -188,7 +186,7 @@ ASCII 图放进：
 
 保存到：
 
-`~/Documents/notes/{时间戳}--拆书-{书名}__book.org`
+`~/Documents/notes/{时间戳}--拆书-{书名}__book.md`
 
 时间戳：
 
@@ -197,12 +195,12 @@ ASCII 图放进：
 
 文件头：
 
-```org
-#+TITLE: 拆书：《{书名}》
-#+SUBTITLE: {作者} | {一句话 f}
-#+DATE: [{YYYY-MM-DD Day HH:MM}]
-#+FILETAGS: :book:{领域}:
-#+IDENTIFIER: {YYYYMMDDTHHMMSS}
+```yaml
+title: 拆书：《{书名}》
+subtitle: {作者} | {一句话 f}
+date: [{YYYY-MM-DD Day HH:MM}]
+tags: :book:{领域}:
+identifier: {YYYYMMDDTHHMMSS}
 ```
 
 ## 10. 文风

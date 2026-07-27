@@ -34,7 +34,7 @@ version: "5.0.0"
 ```
 title:      plain-{简短标题}
 date:       [{YYYY-MM-DD Day HH:MM}]
-filetags:   :plain:atom:
+tags:   :plain:atom:
 identifier: {YYYYMMDDTHHMMSS}
 source:     {URL 或来源描述}
 ```

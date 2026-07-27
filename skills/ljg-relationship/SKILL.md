@@ -201,7 +201,7 @@ org 文件结构：
 ```yaml
 title: 关系分析：{关系描述}
 date: [{日期}]
-filetags: :relationship:
+tags: :relationship:
 identifier: {timestamp}
 
 * 背景
